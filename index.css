@@ -1,0 +1,123 @@
+nav{
+    background-color: coral;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid grey;
+  padding: 15px;  
+  padding-block: 10px;
+}
+
+nav ul li{
+    float: left;
+} 
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgb(194, 194, 203);
+}
+
+nav ul li a:hover:not(.active){
+    background-color: rgb(229, 229, 225);
+}
+.active{
+    background-color: rgb(172, 239, 130);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+#parent1 {
+    position: static;
+    display: grid;
+    padding: 15px;  
+    padding-block: 10px;
+  }
+
+  h1{
+    background-color: grey;
+  }
+
+  #child1 {
+    position: static;
+    border: 1px solid red;
+    padding: 15px;  
+    padding-block: 10px;
+    grid-row: 1 / span 2;
+  }
+  #child1 img{
+    object-fit: cover;
+    width: 100%;
+  }
+
+
+  #child2 {
+    position: static;
+    border: 1px solid red;
+    padding: 15px;  
+    padding-block: 10px;
+    
+  }
+
+  #child2 table{
+    border: 1px;
+    padding: 15px;
+    padding-block: 5px;
+
+  }
+  #child3 {
+    position: static;
+    display: flex;
+    border: 1px solid red;
+    padding: 15px;  
+    padding-block: 10px;
+  }
+
+  table tr td{
+    padding: 10px;
+
+  }
+
+
+
+
+
+
+
+.profile{
+    border: 10px solid black;
+    padding: 15px;  
+    padding-block: 10px;
+}
+
+.intro{
+    border: 1px solid grey;
+}
+
+.about{
+    border: 1px solid grey;
+    padding: 15px;  
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.karir{
+    border: 1px solid grey;
+    padding: 15px;  
+    padding-block: 10px;
+}
+
+.aliran{
+    border: 1px solid grey;
+    padding: 15px;  
+    padding-block: 10px;
+}
